@@ -26,6 +26,7 @@ def progress(stream, chunk, bytes_remaining):
 customtkinter.set_appearance_mode("System")
 customtkinter.set_default_color_theme("green")
 
+
 app = customtkinter.CTk()
 app.geometry("780x540")
 app.title("Youtube Downloader")

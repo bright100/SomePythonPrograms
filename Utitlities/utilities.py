@@ -272,30 +272,3 @@ def counting_sort(list_13, element):
 # +-------------------------------------------------------------------------------------------+
 # |             END OF COUNTING SORT                                                          |
 # +-------------------------------------------------------------------------------------------+
-
-
-if __name__ == "__main__":
-    lis = list()
-    lis2 = [12, 43, 4, 0, 89, 5, 90, 0, 77, 90, 67, 122, 1, 21, 994, 31, 484, 14]
-    number = int(input("how many numbers: "))
-    print("insertion sort")
-    for integers in range(0, number):
-        number_put = int(input("enter no:"))
-        lis.append(number_put)
-    print(lis)
-    insertion_sort(lis)                     # insertion sort
-    print(lis)
-    print("merge sort")
-    end1 = len(lis2) - 1
-    print(lis2)
-    merge_sort(lis2, 0, end1)               # merge sort
-    print(lis2)
-    binary_search(lis2, 0, end1, 89)        # binary search
-    # print(x_sum(lis2, 0, 1, 123, end1))
-    x_sum2(lis2, 95, end1)                 # the sum problem
-    print(random_search(lis2, 994))        # random searching algorithm
-    # print(lis2)
-    # print(heap_sort(lis2))                 # the heap sort algorithm
-    # print(lis2)
-    counting_sort(lis2, 995)
-    #  print(quicksort(lis2, 0, end1))
